@@ -32,7 +32,6 @@ The following libraries are used in this project:
 - raylib
 - raymath
 - raygui
-- AStar (a custom implementation)
 - Various C++ standard libraries (memory, array, unordered_map, queue, etc.)
 
 ## Building
