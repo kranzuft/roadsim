@@ -38,12 +38,11 @@ The following libraries are used in this project:
 
 RoadSim uses CMake as the build tool. To build and run the project, follow these steps:
 
-1. Install the raylib library, if you haven't already
-2. Clone the repository and navigate to the project directory
-3. Create a build directory: `mkdir build && cd build`
-4. Run CMake to generate build files: `cmake ..`
-5. Compile the source code: `make`
-6. Run the compiled executable to launch the RoadSim application: `./roads`
+1. Clone the repository and navigate to the project directory
+2. Create a build directory: `mkdir build && cd build`
+3. Run CMake to generate build files: `cmake ..`
+4. Compile the source code: `make`
+5. Run the compiled executable to launch the RoadSim application: `./roads`
 
 ## Contributing
 
