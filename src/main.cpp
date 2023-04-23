@@ -8,7 +8,6 @@
 #include "AStar.h"
 #include "utility.h"
 #include "ui.h"
-#include <iostream>
 
 #define RAYGUI_IMPLEMENTATION
 
@@ -184,7 +183,7 @@ bool lineIntersection(Vector2 p1, Vector2 p2, Vector2 q1, Vector2 q2, Vector2 &i
     }
 
     // If r x s = 0 and (q - p) x r != 0, then the two lines are parallel and non-intersecting.
-    if (fabs(rxs) < FLT_EPSILON && !(fabs(qpxr) < FLT_EPSILON)) {
+    if (fabs(rxs) < FLT_EPSILON && fabs(qpxr) >= FLT_EPSILON) {
         return false;
     }
 

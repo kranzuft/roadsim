@@ -4,9 +4,8 @@
 
 #include "ui.h"
 #include "raygui.h"
-#include <array>
-#include "model.h"
 
+// Draw the UI for the settings
 Settings settingsUI(Settings settings, const std::function<void()> &onPressReset) {
     // Draw a rectangle around the sliders
     DrawRectangle(0, 0, 350, 190, Fade(WHITE, 0.5f));

@@ -11,15 +11,6 @@
 #include <memory>
 #include <mutex>
 
-struct Settings {
-    float roadWidth = 10.0f;
-    float pointRadius = 5.0f;
-    float lineWidth = 1.0f;
-    float carLength = 4.0f;
-    float carSpeed = 100.0f; // Added missing carSpeed
-    float carSpawnInterval = 1.0f; // In seconds, renamed to carSpawnInterval
-};
-
 struct Point {
     Vector2 position{};
     std::vector<std::shared_ptr<Point>> connectedPoints;

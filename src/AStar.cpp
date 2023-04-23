@@ -2,12 +2,10 @@
 
 #include "AStar.h"
 #include "model.h"
-#include <vector>
 #include <memory>
 #include <array>
 #include <unordered_map>
 #include <queue>
-#include <iostream>
 #include "utility.h"
 
 // A* heuristic function that calculates the distance between two points.

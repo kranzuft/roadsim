@@ -5,11 +5,8 @@
 #ifndef ROADS_UTILITY_H
 #define ROADS_UTILITY_H
 
-#include "utility.h"
 #include "raylib.h"
 #include "raymath.h"
-#include <array>
-#include <random>
 
 int getRandomInt(int minValue, int maxValue);
 
