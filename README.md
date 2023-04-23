@@ -27,6 +27,7 @@ The following features are planned for future development:
 
 ## Dependencies
 
+The code uses up to C++23 standards
 The following libraries are used in this project:
 
 - raylib
@@ -39,10 +40,11 @@ The following libraries are used in this project:
 RoadSim uses CMake as the build tool. To build and run the project, follow these steps:
 
 1. Clone the repository and navigate to the project directory
-2. Create a build directory: `mkdir build && cd build`
-3. Run CMake to generate build files: `cmake ..`
-4. Compile the source code: `make`
-5. Run the compiled executable to launch the RoadSim application: `./roads`
+2. Run download-libraries.py (Use at own risk it's not tested). Or read through it for instructions on what you need.
+3. Create a build directory: `mkdir build && cd build`
+4. Run CMake to generate build files: `cmake ..`
+5. Compile the source code: `make`
+6. Run the compiled executable to launch the RoadSim application: `./roads`
 
 ## Contributing
 

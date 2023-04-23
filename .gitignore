@@ -5,3 +5,4 @@ cmake-build-debug
 copy4gpt.py
 include/*.h
 libs/*.a
+Makefile
